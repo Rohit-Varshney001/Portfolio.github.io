@@ -217,6 +217,12 @@ img {
 .skills-text{
     margin-top: 3rem;
     margin-bottom: 2rem;
+    font-size: 25px;
+}
+.skills-text2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 35px;
 }
 .skills-data{
     display: flex;
@@ -272,6 +278,7 @@ img {
 
 .work-container {
   row-gap: 2rem;
+  padding-left: 2rem;
 }
 .work .section-title::after{
     content: "What i do";
@@ -294,15 +301,21 @@ img {
 .work-img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
+  width: auto;
+  height: auto;
   overflow: hidden;
+  /* padding: 10px; */
 }
 
 .work-img img {
   transition: 1s;
+  width: 22rem;
+
 }
 
 .work-img img:hover {
   transform: scale(1.1);
+  border-radius: .5rem;
 }
 .work-img-hover{
     text-align: center;
